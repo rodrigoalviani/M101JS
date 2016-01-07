@@ -1,0 +1,35 @@
+{% include "header.html" %}
+
+{% if form %}
+
+      <div class="starter-template">
+        <h1>Add a movie</h1>
+
+        <form method="post" action="/movies">
+          <div class="form-group">
+            <label for="title">Title</label>
+            <input type="text" class="form-control" id="title" placeholder="Title" name="title">
+          </div>
+          <div class="form-group">
+            <label for="year">Year</label>
+            <input type="text" class="form-control" id="year" placeholder="Year" name="year">
+          </div>
+          <div class="form-group">
+            <label for="imdb">IMDb</label>
+            <input type="text" class="form-control" id="imdb" placeholder="IMDb" name="imdb">
+          </div>
+          <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+
+      </div>
+
+{% elif added %}
+
+      <div class="starter-template">
+        <h1>Success!</h1>
+        <p class="lead">"{{ title }}" added!</p>
+      </div>
+
+{% endif %}
+
+{% include "footer.html" %}
