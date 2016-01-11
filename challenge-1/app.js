@@ -49,8 +49,6 @@ app.post('/movies', function (req, res, next) {
   });
 });
 
-
-
 app.use(function (req, res) {res.sendStatus(404);});
 app.use(errorHandler);
 
