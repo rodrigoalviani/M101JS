@@ -1,0 +1,1 @@
+db.movieDetails.find({"countries.1": "Sweden"}, {"_id": 0, "title": 1}).limit(1);
