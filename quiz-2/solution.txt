@@ -1,0 +1,7 @@
+// Count matched rows
+db.movieDetails.find({"imdb.votes": {$lt: 10000}, year: {$gte: 2010, $lte: 2013}, $and: [{"tomato.consensus": {$exists: true}}, {"tomato.consensus": null}]}).count();
+// Answer: 13
+
+// Updating docs
+db.movieDetails.updateMany({"imdb.votes": {$lt: 10000}, year: {$gte: 2010, $lte: 2013}, $and: [{"tomato.consensus": {$exists: true}}, {"tomato.consensus": null}]}, {$unset: {"tomato.consensus": ""}});
+// Answer: { "acknowledged" : true, "matchedCount" : 13, "modifiedCount" : 13 }
