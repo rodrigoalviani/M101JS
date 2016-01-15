@@ -1,0 +1,1 @@
+db.movieDetails.find({ 'awards.oscars': {: {award: 'bestPicture', result: 'nominated'}} }, {_id: 0, title: 1}).pretty();
