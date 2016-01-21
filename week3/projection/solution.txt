@@ -1,0 +1,1 @@
+cursor.project({'_id': 0, 'name': 1, 'number_of_employees': 1});
