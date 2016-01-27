@@ -1,0 +1,1 @@
+Keeping your data consistent even though MongoDB lacks foreign key constraints
