@@ -1,0 +1,2 @@
+To reduce the working set size of your application.
+Because the combined size of the documents would be larger than 16MB
