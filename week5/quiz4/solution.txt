@@ -1,0 +1,1 @@
+Adding appropriate indexes on large collections so that only a small percentage of queries need to scan the collection.
