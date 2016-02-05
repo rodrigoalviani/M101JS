@@ -1,0 +1,1 @@
+db.students.createIndex({'class': 1, 'student_name': 1})
