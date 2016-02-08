@@ -1,0 +1,1 @@
+db.students.createIndex({"student_id": 1, "class_id": 1}, {unique: true});
