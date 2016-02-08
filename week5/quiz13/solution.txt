@@ -1,0 +1,1 @@
+The query scanned 999,999 documents, returning 10,000 in 619 milliseconds.
