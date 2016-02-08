@@ -1,0 +1,2 @@
+The index will be smaller than it would if it were not sparse.
+You can gain greater flexibility with creating Unique indexes.
