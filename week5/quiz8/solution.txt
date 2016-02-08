@@ -1,0 +1,1 @@
+db.people.createIndex({"work_history.company":-1});
