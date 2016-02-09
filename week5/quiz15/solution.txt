@@ -1,0 +1,2 @@
+db.foo.find( { a : 3 } )
+db.foo.find( { c : 1 } ).sort( { a : 1, b : 1 } )
