@@ -1,0 +1,3 @@
+Equality fields before range fields
+Sort fields before range fields
+Equality fields before sort fields
