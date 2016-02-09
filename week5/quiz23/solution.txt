@@ -1,0 +1,1 @@
+db.system.profile.find({millis: {$gt: 1000}}).sort({ts: -1});
