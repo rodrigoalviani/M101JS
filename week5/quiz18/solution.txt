@@ -1,0 +1,1 @@
+db.places.find({"location": {$near: [74, 140]}}).limit(3);
