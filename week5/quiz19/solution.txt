@@ -1,0 +1,1 @@
+db.stores.find({"loc": {$near: {$geometry: {type: "Point", coordinates: [-130, 39]}, $maxDistance: 1000000}}});
