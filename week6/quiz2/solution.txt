@@ -1,0 +1,2 @@
+To filter documents using a $match stage, we use the same syntax for constructing query documents (filters) as we do for find().
+You should try to include $match stages as early as possible in your pipeline.
