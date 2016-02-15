@@ -1,0 +1,3 @@
+Pipelines use a MongoDB collection as input.
+The task a pipeline stage performs is tunable.
+Aggregation pipelines are similar to Linux shell pipelines.
