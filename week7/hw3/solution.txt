@@ -1,0 +1,3 @@
+MongoDB cannot enforce unique indexes on a sharded collection other than the shard key itself or indexes preferred by the shard key.
+Any update that does not contain the shard key will be sent to all shards.
+There must be an index on the collection that starts with the shard key.
