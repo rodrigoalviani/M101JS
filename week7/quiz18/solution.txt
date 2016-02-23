@@ -1,0 +1,3 @@
+Choosing posttime as the shard key will cause hotspotting as time progresses.
+Choosing username as the shard key will distribute posts to the wall well across the shards.
+Choosing visible_to as a shard key is illegal.
