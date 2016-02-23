@@ -1,0 +1,1 @@
+An index on zip or a non-multi-key index that starts with zip.
