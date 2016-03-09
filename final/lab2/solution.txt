@@ -1,0 +1,2 @@
+In a search for "mongodb", at least three products on the third page of results have the term "MongoDB" printed on them using a capital "M".
+All products in two different categories match the query "stick"

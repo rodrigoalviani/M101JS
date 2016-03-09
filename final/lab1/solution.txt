@@ -1,0 +1,3 @@
+MongoDB the Definitive Guide
+Leaf Sticker
+Scaling MongoDB
